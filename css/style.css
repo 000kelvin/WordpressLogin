@@ -1,0 +1,109 @@
+body {
+  background: #eee !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 320px;
+  height: 280px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-radius: 0 !important;
+    background: #fbfbfb;
+  /*border-bottom-right-radius: 0;*/
+}
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+    border-radius: 0 !important;
+    background: #fbfbfb;
+  /*border-top-right-radius: 0;*/
+}
+
+.label{
+    color: #72777c;
+    font-size: 12px !important;
+    font-weight: normal;
+    margin-left: -8px;
+}
+
+.login{
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    vertical-align: baseline;
+    float: right;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+    margin-top: -50px;
+}
+
+.logo{
+    background-image: url(../wordpress-logo.jpg);
+    background-image: none,url(../wordpress-logo.svg);
+    background-size: 84px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #444;
+    height: 84px;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 0 auto 25px;
+    padding: 0;
+    width: 84px;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+}
+
+.navd{
+    margin: 17px 0 0;
+    font-size: 13px;
+    color: #444;
+}
+
+.plost{
+    text-decoration: none;
+    color: #444;
+    transition-property: border,background,color;
+    transition-duration: .05s;
+    transition-timing-function: ease-in-out;
+    outline: 0;
+    line-height: 1.5;
+}
+
+.plost:hover{
+    color: #00a0d2;
+    text-decoration: none;
+}
